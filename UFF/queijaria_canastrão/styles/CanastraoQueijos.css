@@ -1,0 +1,53 @@
+header {
+    display:block;
+    margin-bottom: 1px;
+}
+
+nav {
+    display:block;
+    width: 20%;
+    float: left;
+}
+
+section {
+    display:block;
+    width: 70%;
+    float: right;
+}
+
+body {
+    color: #3366BB;
+    font-size: 16px;
+    background-color: #EEDDAA;
+    font-family: stoke, Lucida Bright, liberation;
+}
+
+a:link { color:#2255AA; text-decoration:none; }
+a:visited { color:#2255CC; text-decoration:none; }
+ol ul { line-height: 200%; }
+
+nav ul {
+    color: #3366BB;
+    margin-top: 40px;
+    line-height: 230%;
+    list-style-type: disc;
+}
+
+.ender {
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    line-height: 140%;
+    font-family: Karla, verdana, Ubuntu;
+}
+
+.imgLogo {
+    padding-bottom: 15px;
+    border-bottom: 4px solid #3366BB;
+    margin-bottom: 6px;
+}
+
+.apres {
+text-align: center;
+font-size: 16px;
+}
