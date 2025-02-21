@@ -52,7 +52,34 @@ text-align: center;
 font-size: 16px;
 }
 
-/*Definições para a Página de harmonização*/
+/*Definições de estilo para a Página de Harmonização.*/
+
+.titulo{
+    text-align: center;
+}
+
+dl.listaQueijo{
+    width: 440px;
+    color: #3366BB;
+    background-color: #FFFFBB;
+    padding: 10px;
+    border: 2px solid #3366BB;
+    margin: 0 auto 10px auto;
+}
+
+dl.listaQueijo ul{
+    color: #3366BB;
+    font-size: 14px;
+}
+
+dl.listaQueijo h4{
+    font-size: 14px;
+}
+dl.listaQueijo .procedência{
+    text-decoration: underline;
+}
+
+/*Definições para a Página de Queijos.*/
 
 table.tabQueijo {
     border-collapse: collapse;
