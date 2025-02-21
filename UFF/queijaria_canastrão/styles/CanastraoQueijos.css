@@ -41,7 +41,7 @@ nav ul {
     font-family: Karla, verdana, Ubuntu;
 }
 
-.imgLogo {
+img.imgLogo {
     padding-bottom: 15px;
     border-bottom: 4px solid #3366BB;
     margin-bottom: 6px;
@@ -50,4 +50,41 @@ nav ul {
 .apres {
 text-align: center;
 font-size: 16px;
+}
+
+/*Definições para a Página de harmonização*/
+
+table.tabQueijo {
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-size: 15px;
+    background-color: #FFFFBB;
+    color: #114499;
+    font-family: Karla, verdana, Ubuntu;
+}
+
+table.tabQueijo td, table.tabQueijo th {
+    border: 2px solid #000000;
+    padding: 6px 12px;
+}
+
+table.tabQueijo th.linTH {
+    color: #EEEE00;
+    background-color: #887733;
+    vertical-align: middle;
+    text-align: center;
+}
+
+table.tabQueijo td.colTH {
+    color: #222222;
+    background-color: #cb8;
+    text-align: left;
+}
+
+img.imgQueijo{
+    width: 60px;
+    height: 44px;
+}
+td.preco{
+    color: #CC0000;
 }
