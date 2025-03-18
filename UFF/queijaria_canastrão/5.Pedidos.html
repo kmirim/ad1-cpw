@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Canastrão Queijos</title>
+    <base target="_blank" />
+    <link rel="stylesheet" type="text/css" href="styles/CanastraoQueijos.css" />
+    <link href='https://fonts.googleapis.com/css?family=Karla|Stoke' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <address class="ender">
+            Rua Gorgonzola, 235
+            <br />
+            Tel: (21) 91235-1235
+            <br />
+            <a href="mailto:contato@canastrao.com.br">
+                contato@canastrao.com.br</a>
+        </address>
+        <img class="imgLogo" src="assets/images/CanastraoLogoTopo.png" /><br />
+    </header>
+    <nav>
+        <ul>
+            <li><a href="2.Apresentacao.html">Apresentação</a></li>
+            <li><a href="3.Queijos.html">Queijos</a></li>
+            <li><a href="4.Harmonizacao.html">Harmonização</a></li>
+            <li><a href="5.Pedidos.html">Pedidos</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="divCompras">
+            <h3 class="title">Compras</h3>
+            <form method="POST">
+                <div class="formul">
+                    <fieldset class="">
+                        <legend> Dados Pessoais&nbsp;</legend>
+                        <div class="divLinha">
+                            <label for="nome" class="elemEsq">Nome: </label>
+                            <input type="text" class="inpGrande" id="nome" name="TxtNome">
+                        </div>
+                        <div class="divLinha">
+                            <label for="email" class="elemEsq">E-mail: </label>
+                            <input type="text" class="inpGrande" id="email" name="TxtEmail">
+                        </div>
+                                                 
+                        <div class="linhaDados">
+                            <fieldset class="fsDir">
+                            <legend> Genero&nbsp;</legend>
+                            <input type="radio" name="TglGenero" value="M"> Masc
+                            <input type="radio" checked name="TglGenero" value="F"> Fem
+                            <input type="radio" name="TglGenero" value="O"> Outro
+                            </fieldset>
+                            
+                            <label for="tel" class="elemEsq">Endereço: </label>
+                            <input type="text" class="impEnder" id="tel" name="TxtEnd" /> 
+                            <br />
+
+                            <fieldset class="fsDir">
+                                <legend> Nascimento:&nbsp;</legend>
+                                <input type="date" name="data">
+                            </fieldset>
+
+                            <label for="tel" class="elemEsq">Telefone: </label>
+                            <input type="tel" class="impTelef" id="tel" name="TxtTelefone" />
+                            <br />
+
+                            <label for="cel" class="elemEsq">Celular: </label>
+                            <input type="tel" class="impTelef" id="cel" name="TxtCelular" />
+                            <br />    
+                        </div>  
+                    </fieldset>
+                    <div>
+
+                        <fieldset>
+                            <legend> Seleção de Produtos e Pagamento &nbsp;</legend>
+                            <div class="elemDir">
+                                <input type="text" class="listaCompras" id="descricao" name="TxtDesc" />
+                            </div>
+                            <div class="linhaProdSel">
+                                <select>
+                                    <option> ----- </option>
+                                    <optgroup label="Nacional">
+                                        <option>Canastra (500g)</option>
+                                        <option>Queijo Minas (400g)</option>
+                                        <option>Queijo Coalho (500g)</option>
+                                    </optgroup>
+                                    <optgroup label="Internacional">
+                                        <option>Gorgonzola (200g)</option>
+                                        <option>Queijo Brie (200g)</option>
+                                    </optgroup>
+                                </select>
+                                <input type="submit" value="Enviar" name="BtnEnviar" class="elemDir"/>
+                            </div>
+                            <br/>
+                            
+                            <fieldset class="fsEsq">
+                                <legend> Cartão &nbsp;</legend>
+                                <label class="colLabCrd" >Bandeira:
+                                    <label><input type="radio" name="RadBand" checked />Visa</label>
+                                    <label><input type="radio" name="RadBand" />Master</label>
+                                    <label><input type="radio" name="RadBand" />Elo</label>
+                                    </br>
+                                </label>
+                                <br/>
+
+                                <label class="colLabCrd" for="mesVal">Validade:&nbsp;&nbsp;
+                                    <input type="number" name="TxtMesVal" id="mesVal" min="1" max="12" class="numDD" value="10" /> 
+                                    <input type="number" name="TxtAnoVal" value="2024" min="2023" max="2040" class="numQD" />
+                                    <br/>
+                                </label>
+                                <br/>
+                                
+                                <label class="colLabCrd" for="numCar">Número:&nbsp;&nbsp;
+                                <input type=text name="TxtNumCard"
+                                
+                                class="inpNCC" id="numCar"/></label><br/>
+                            </fieldset>
+                            
+                            <div class="elemDir">
+                                <label for="descricao" class="elemEsq">Valor: </label>
+                                <input type="text" class="impMedio" id="descricao" name="TxtDesc" />
+                            </div>
+                        </fieldset>
+                    </div>  
+
+                    <div class="botoes">
+                        <input type="submit" value="Enviar" name="BtnEnviar"> 
+                        <input type="submit" value="Limpar" name="BtnEnviar"> 
+                    </div>
+                </div>
+            </form>
+    </section>
+</body>
+
+</html>

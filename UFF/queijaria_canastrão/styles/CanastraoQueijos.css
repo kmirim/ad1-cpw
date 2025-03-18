@@ -119,4 +119,86 @@ dl.listaQueijo .procedência{
 }
 
 /*Definições de esttilo para a Página de Pedidos.*/
+.title{
+    text-align: left;
+}
+.divCompras{
+    width: 550px;
+    color: #2255AA;
+    background-color: #FFFFBB;
+    padding: 6px 6px 15px 6px;
+    font-size: 12px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+}
+.fsEsq{
+    display: inline;
+    margin: 0px;
+}
+.colLabSelProd{
+    float: left;
+    width: 230px;
+    height: 40px;
+    
+}
 
+.divLinha{
+    width: 500px;
+    margin-bottom: 6px;
+}
+
+.elemEsq{
+    display: block;
+    float: left;
+    width: 70px;
+}
+.elemDir{
+    display: block;
+    float: right;
+}
+.fsDir{
+    float: right;
+    display: inline;
+    margin: 0px;
+}
+
+/*INPUTS*/
+
+.inpGrande{
+    width: 380px;
+    margin-bottom: 6px;
+}
+
+.impEnder{
+    width: 180px;
+    height: 50px;
+    margin-bottom: 6px;
+}
+.impTelef{
+    width: 90px;
+    margin-bottom: 6px;
+}
+.impMedio{
+    width: 80px;
+}
+.colLabCrd{
+    margin-bottom: 6px;
+}
+.botoes{
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+
+}
+.listaCompras{
+    width: 210px;
+    height: 100px;
+    float: right;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+.linhaProdSel{
+    width: 220px;
+    margin-bottom: 6px;
+    float: left;
+}
